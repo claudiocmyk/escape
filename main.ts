@@ -394,7 +394,7 @@ let herrou = sprites.create(img`
     ..................fbdbbfcc......fbbf
     ...................fffff.........fff
     `, SpriteKind.Enemy)
-tiles.placeOnRandomTile(mySprite, sprites.swamp.swampTile16)
+tiles.placeOnRandomTile(herrou, sprites.swamp.swampTile16)
 herrou.follow(mySprite)
 game.onUpdate(function () {
     muvi = controller.up.isPressed() || (controller.down.isPressed() || (controller.right.isPressed() || (controller.left.isPressed() || false)))
